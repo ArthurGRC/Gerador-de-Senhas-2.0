@@ -78,5 +78,10 @@ const copy = function () {
   alert("Senha copiada com sucesso");
 };
 
+const newFc = function () {
+  console.log("Add new");
+};
+
 btnGerar.addEventListener("click", generatePass);
 btnCopy.addEventListener("click", copy);
+newFc();
