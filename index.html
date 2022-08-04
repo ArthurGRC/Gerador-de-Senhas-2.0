@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Gerador de senhas 2.0</title>
+  </head>
+  <body>
+    <main class="card">
+      <div>
+        <input
+          type="number"
+          class="inputLen"
+          placeholder="Selecione o tamanho"
+        />
+      </div>
+
+      <p class="tittle">******</p>
+
+      <ul class="selectores">
+        <li><input type="checkbox" class="number" /> Numbers</li>
+        <li><input type="checkbox" class="maiuscula" /> Maiuscula</li>
+        <li><input type="checkbox" class="minuscula" /> Minuscula</li>
+        <li><input type="checkbox" class="Character" /> Character</li>
+      </ul>
+
+      <div class="buttons">
+        <button class="gerar btn">
+          <ion-icon name="key-outline" class="gerar-icon icon"></ion-icon>Gerar
+        </button>
+        <button class="copiar btn">
+          <ion-icon name="copy-outline" class="copy-icon icon"></ion-icon>Copiar
+        </button>
+      </div>
+    </main>
+    <footer class="footer">By &copy; Arhur and Pedro</footer>
+  </body>
+  <script src="script.js"></script>
+  <script
+    type="module"
+    src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+  ></script>
+  <script
+    nomodule
+    src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+  ></script>
+</html>
